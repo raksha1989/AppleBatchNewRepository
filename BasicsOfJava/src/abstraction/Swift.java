@@ -1,7 +1,6 @@
 package abstraction;
 
-public class Swift extends Car{
-	
+public abstract class Swift extends Car{
 	
 	void setData(String engine,int price)
 	{
@@ -13,7 +12,7 @@ public class Swift extends Car{
 	{
 		System.out.println(price+" "+engine);
 	}
-	void dashboard()
+	void dashBoard()
 	{
 		System.out.println("Swift has:  Ac,Music System, Screen");
 	}

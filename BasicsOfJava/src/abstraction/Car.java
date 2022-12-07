@@ -5,6 +5,12 @@ public abstract class Car { //cannot create object of abstract class
 	int price;
 	String engine;
 	
+	Car()
+	{
+		price=-1;
+		engine="engine";
+	}
+	
 	//constructors are allowed in abstract class
 	
 	void wheeloNo()  //concrete methods
@@ -22,8 +28,9 @@ public abstract class Car { //cannot create object of abstract class
 		System.out.println("there are 2 headlights");
 	}*/
 	
-	abstract void dashboard();
+	abstract void dashBoard();
 	abstract void safetyFeatures();
 	abstract void buildQuality();
+	abstract void alloyWheels();
 	
 }
